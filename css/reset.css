@@ -1,0 +1,126 @@
+/*---------------------------------------------------------
+ 2. Reset (_reset.scss)
+-------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline; 
+	border: 0;}
+
+body {
+	line-height: 1; }
+
+ol, ul {
+	list-style: none; }
+
+blockquote, q {
+	quotes: none; }
+
+blockquote:before, blockquote:after {
+	content: "";
+	content: none; }
+
+table {
+	border-spacing: 0; 
+	border-collapse: separate;}
+
+html {
+	font-size: 100%;
+
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%; }
+
+a:focus {
+	outline: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block; }
+
+audio, canvas, video {
+	display: inline-block;
+
+	*display: inline;
+	*zoom: 1; }
+
+audio:not([controls]) {
+	display: none; }
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	height: 0;
+	vertical-align: baseline; }
+
+sup {
+	bottom: 1ex; }
+
+sub {
+	top: .5ex; }
+
+img {
+	-ms-interpolation-mode: bicubic; 
+	border: 0;}
+
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+
+	*vertical-align: middle; }
+
+button, input {
+	line-height: normal;
+
+	*overflow: visible; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0; 
+	border: 0;}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+
+	-webkit-appearance: button; }
+
+input[type="search"] {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box; 
+
+	-webkit-appearance: textfield;}
+
+input[type="search"]:-webkit-search-decoration {
+	-webkit-appearance: none; }
+
+textarea {
+	overflow: auto;
+	vertical-align: top; }
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; }
+
+a:focus {
+	outline: thin dotted; }
+
+a:hover, a:active {
+	outline: 0; }
+
+a img {
+	border: 0; }
+
+.clear, .site-header, .site-header-main, .header-bar, .site-content, .site-footer, .gallery, .site-content .container, .infinite-footer-container, {
+	zoom: 1; }
+.clear:before, .site-header:before, .site-header-main:before, .header-bar:before, .site-content:before, .site-footer:before, .builder-section:before, .site-content .container:before, .infinite-footer-container:before, .clear:after, .site-header:after, .site-header-main:after, .header-bar:after, .site-content:after, .site-footer:after, .site-content .container:after, .infinite-footer-container:after, {
+	display: table;
+	content: ""; }
+.clear:after, .site-header:after, .site-header-main:after, .header-bar:after, .site-content:after, .site-footer:after, .gallery:after, .site-content .container:after, .infinite-footer-container:after, {
+	clear: both; }
+
+.break, p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, pre, table {
+	word-wrap: break-word; 
+	word-break: break-word;}
+

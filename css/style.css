@@ -1,0 +1,212 @@
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #0d1117;
+  background: url('images/ajax-loader.gif') 50% 50% no-repeat;
+}
+
+h1 {
+	font-size: 43px;
+  font-size: 4.3rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #0d1117;
+  font-size: 17px;
+  font-size: 1.7rem;
+  text-rendering: optimizeLegibility;
+}
+
+body, button, input, select, textarea {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  color: #171717;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #3070d1;
+}
+
+.wrap {
+  margin: 0;
+  height: 100%;
+}
+
+@keyframes han-keyframes {
+	0% {
+		transform: translate3d(0px, -58px, 0px);
+		opacity: 0;
+		animation-timing-function: linear;
+	}
+	23.53% {
+		transform: translate3d(0px, -58px, 0px);
+		animation-timing-function: linear;
+	}
+	70.59% {
+		transform: translate3d(0px, -7px, 0px);
+		opacity: 0;
+		animation-timing-function: linear;
+	}
+	100% {
+		transform: translate3d(0px, -19px, 0px);
+		opacity: 1;
+		animation-timing-function: linear;
+	}
+}
+
+main {
+  width: 100%;
+  height: 80%;
+}
+
+#face {
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.han {
+	animation: han-keyframes 1.7s linear 1s 1 normal forwards;
+  color: #fff;
+}
+
+main h1 {
+  position: relative;
+  width: 100%;
+  top: 55px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Marvel", Helvetica, Arial, sans-serif;
+  color: #171717;
+  font-weight: normal;
+  line-height: 1.15;
+  font-size: 70px;
+}
+
+#experience {
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  perspective: 800px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+
+#lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: .7;
+  color: #f0f6fc;
+}
+
+ul#horizontal-list {
+  margin: 70px auto;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  display: block;
+}
+
+ul#horizontal-list li {
+  margin: 5px;
+  display: inline;
+}
+
+#horizontal-list img {
+  width: 30px;
+}
+
+#horizontal-list img.inactive {
+  transition: all .2s ease-in-out;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+#horizontal-list img:hover {
+  transform: scale(1.4);
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+#horizontal-list img.active {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+#generated-code {
+  text-align: center;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#visited {
+  text-align: center;
+  position:absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+@media only screen and (max-width: 500px) {
+
+  #face {
+    position: relative;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  #generated-code {
+    text-align: center;
+    position:absolute;
+    margin-top: 30%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+
+  main h1 {
+    position: relative;
+    max-width: 500px;
+    top: 55px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Marvel", Helvetica, Arial, sans-serif;
+    color: #171717;
+    font-weight: normal;
+    line-height: 1.15;
+    font-size: 50px;
+  }
+}
