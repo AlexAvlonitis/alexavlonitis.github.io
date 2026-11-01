@@ -17,7 +17,7 @@
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db;
+  border-top-color: #2DE2E6;
 
   -webkit-animation: spin 2s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
@@ -35,7 +35,7 @@
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: #FF2FD0;
 
   -webkit-animation: spin 3s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
@@ -52,7 +52,7 @@
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922;
+  border-top-color: #FFB03B;
 
   -webkit-animation: spin 1.5s linear infinite;
   /* Chrome, Opera 15+, Safari 5+ */
@@ -105,7 +105,7 @@
   top: 0;
   width: 51%;
   height: 100%;
-  background: #0d1117;
+  background: #0B0220;
   z-index: 1000;
 }
 
@@ -117,7 +117,7 @@
   right: 0;
 }
 
-.loaded #loader-wrapper .loader-section .section-left {
+.loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
   -ms-transform: translateX(-100%);
@@ -131,7 +131,7 @@
   /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
-.loaded #loader-wrapper .loader-section .section-right {
+.loaded #loader-wrapper .loader-section.section-right {
   -webkit-transform: translateX(100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
   -ms-transform: translateX(100%);
